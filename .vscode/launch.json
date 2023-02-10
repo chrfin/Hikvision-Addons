@@ -9,6 +9,7 @@
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/hikvision-sdk/hik.py",
+            "cwd": "${workspaceFolder}/hikvision-sdk",
             "console": "integratedTerminal",
             "justMyCode": true,
             "envFile": "${workspaceFolder}/hikvision-sdk/development.env"
